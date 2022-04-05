@@ -2,7 +2,7 @@ const express = require("express");
 const expressGraphQL = require("express-graphql").graphqlHTTP;
 const cors = require('cors')
 const axios = require("axios");
-cpnst path = require("path")
+const path = require("path")
 const {
   GraphQLObjectType,
   GraphQLInt,
